@@ -1,0 +1,28 @@
+Daten bereinigen (unvollst)
+Lager leeren (unvollst)
+Paket bearbeiten (abstrakt)
+Optimieren (unvollst)
+Warnung ausgeben (unvollst)
+SendWarn: Paket-Id (unvollst)
+SendWarn: Lager voll (unvollst)
+
+Einlagern
+	Lagerist, Auslastung, Anzahl freier Plätze, Paket, Slot, Zuordnung Paket-Slot
+	Auslastung abfragen, Anzahl freier Plätze zurückgeben, Paket Slot zuweisen, Zuordnung erzeugen, transportieren, Anzahl Plätze dekrementieren
+Paket Slot zuweisen
+	Zuordnung (Paket-Id - Lagerplatz)
+	speichern (Zuordnung), zurückgeben (erzeugte Informationen)
+Auslastung abfragen
+	Anzahl Paket-Id, Lagerplätze
+	zurückgeben
+Paket-Id anfragen
+Auslagern
+Lager voll
+Paket-Id nicht vorhanden
+
+
+
+	
+Problem:
+- mehr oder weniger nur Nutzer und Lager vorhanden -> Aufteilung in Teilsysteme: Koordinationseinheit, Datenbasis, Steuerung
+- Nutzer ist eigentlich außerhalb vom System (entspricht aber "Kunde" im Beispiel)
