@@ -1,0 +1,13 @@
+- Aktivitätsdia
+	- Konflikt Datenkontrollfluss bei Kontrollstruktur
+	- UC Einlagern: Transportieren: Schnittstellenkommunikation korrigieren
+	- Exceptionhandling, wenn Scan fehl schlägt (UC Einlagern, Optimieren, Datenbereinigung)
+	
+- UsecaseDia
+	- auf Konsistenz prüfen
+
+- Objekt-/Klassendia
+	- zeigen, fragen ob okay
+	
+- Zustandsdiagramm 
+	- zeigen -> fragen, ob okay
