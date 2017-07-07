@@ -1,11 +1,11 @@
 getNextId()								liefert nächste eingelagerte Paket-Id im Hochregal -> Reihenfolge nicht festgelegt
 getSlot(Id)								lifert Slot-Koordinate zu gegebener Paket-Id
-transport([xSrc, ySrc], [xDst, yDst]) 	transportiert Paket von Src-Koordinaten nach Dst-Koordinaten
+transport([xDst, yDst]) 				transportiert Paket von aktuellen Koordinaten nach Dst-Koordinaten
 saveSlotId(Id, [x, y])					speichert belegung der Slot-Koordinate mit gegebener Paket-Id (Id "-1" entspricht "leer")
 coutFreeSlots()							liefert die Anzahl freier Slots im Hochregal
 scan[x, y]								ermittelt die Paket-Id des Paketes an den angegebenen Koordinaten
 										xxxx 	-> Paket-Id
 										-1		-> kein Paket am Ort vorhanden
 										NaN		-> Paket vorhanden, aber Id nicht lesbar	//TODO: nötig?
-determineFreeSlot()						liefert die Koordinaten für den nächsten, freien, günstigen Slot
+detFreeSlot()							liefert die Koordinaten für den nächsten, freien, günstigen Slot
 getHighestUsedSlot()					liefert die Slot-Koordinate des Paketes, welches am wenigsten der Optimierungsstrategie entspricht

@@ -13,10 +13,3 @@
 	- zeigen -> fragen, ob okay
 	
 	
-----
-
-- Aktivitätsdia
-	- Einlagern
-		- wenn freeslots == 0 -> keine Nachricht?
-	- Optimieren
-		- transport hat jeweils keine src, weil Startposition vom Scan verwendet wird? 
